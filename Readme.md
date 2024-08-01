@@ -1,11 +1,11 @@
-Run these commands
-First, run compile for processor
+# How to compile this source code ? 
 
+## First, run compile for processor
 ```shell
 mvn clean compile -am -pl processor
 ```
 
-then compile for user module
+## compile for user module
 ```shell
 mvn clean compile -am -pl user
 ```
